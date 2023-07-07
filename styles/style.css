@@ -67,6 +67,10 @@
   width:420px ;
   transition: 0.5s;
 }
+.banner-photo:not(:hover){
+  
+  transition: 0.5s;
+}
 .banner-text{
   color: rgb(255, 255, 255);
   
@@ -88,12 +92,16 @@
 }
 .btn:hover{
   margin: 30px;
-  padding:20px ;
+  padding:21px ;
   background:rgb(33, 210, 74) ;
   border: 3px solid  rgb(255, 255, 255);
   font-weight: bold;
   border-radius: 20px;
   font-size: large;
+  transition:0.5s ;
+}
+.btn:not(:hover){
+  transition: 0.5s;
 }
 .bnp{
   margin: 20px 0;
