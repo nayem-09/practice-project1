@@ -107,8 +107,67 @@
   margin: 20px 0;
   font-weight: bold;
 }
+
+
+
+.mid-container{
+ height: 100vh;
+
+}
 .chokka{
   color: rgb(255, 6, 6);
   display: inline-block;
   cursor: pointer;
 }
+.ttl{
+  text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(11, 222, 11) ;
+font-weight: bold;
+font-size:20px ;
+
+}
+.ttl h1{
+  margin: 50px;
+  font-size: 50px;
+  color: rgb(65, 65, 219);
+}
+.detail{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+color: rgb(55, 0, 255);
+font-weight: bold;
+font-family:  sans-serif;
+margin-top:30px ;
+}
+.mid-ctext h1{
+ color: rgb(230, 12, 215);
+ font-size:50px ;
+ margin:20px 0 ;
+}
+.mid-ctext button{
+  padding: 20px;
+  width:200px ;
+  background-color: rgb(55, 0, 255) ;
+  border-radius:20px ;
+  font-size:20px ;
+  border: 2px solid rgb(140, 16, 125);
+  margin: 20px 0;
+  color: aliceblue;
+  
+}
+.mid-ctext button:hover{
+
+  background-color: rgb(188, 38, 204);
+  width: 202px;
+  transition: 0.5s;
+}
+.mid-cimage img{
+width: 500px;
+ 
+}
+.mid-cimage img:hover{
+  width: 504px;
+   transition:0.5s ;
+  }
