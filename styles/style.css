@@ -36,7 +36,7 @@
 }
 .item:hover{
   color: rgb(255, 255, 255);
-  
+  transform: scale(1.3); z-index: 2;
   transition:0.5s ;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -64,8 +64,8 @@
   
 }
 .banner-photo:hover{
-  width:420px ;
-  transition: 0.5s;
+  transform: scale(1.3); z-index: 2;
+  transition:0.5s ;
 }
 .banner-photo:not(:hover){
   
@@ -91,8 +91,8 @@
   font-size: large;
 }
 .btn:hover{
-  margin: 30px;
-  padding:21px ;
+  transform: scale(1.3); z-index: 2;
+  
   background:rgb(33, 210, 74) ;
   border: 3px solid  rgb(255, 255, 255);
   font-weight: bold;
@@ -160,7 +160,7 @@ margin-top:30px ;
 .mid-ctext button:hover{
 
   background-color: rgb(188, 38, 204);
-  width: 202px;
+  transform: scale(1.3); z-index: 2;
   transition: 0.5s;
 }
 .mid-cimage img{
@@ -168,8 +168,12 @@ width: 500px;
  
 }
 .mid-cimage img:hover{
-  width: 504px;
+  transform: scale(1.3); z-index: 2;
    transition:0.5s ;
+
+  }
+   .mid-cimage img:not(:hover){
+    transition: 0.5s;
   }
   .footer-container{
     background-color:rgba(22, 17, 24, 0.989) ;
